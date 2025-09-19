@@ -53,7 +53,9 @@ Perfect for speeding up family game nights where players take *way too long* on 
 | LCD SCL         | GP1      | I²C0 SCL                    |
 | Power           | 3V3 / GND| common ground required      |
 
-📷 See the [wiring diagram](Pico.png) in this repo.  
+[Wiring Diagram](Pico.png)
+
+<img src="Pico.png" alt="Wiring diagram: Pico, LEDs, button, buzzer" width="720"/>
 
 ---
 
