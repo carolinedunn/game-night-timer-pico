@@ -63,13 +63,18 @@ Perfect for speeding up family game nights where players take *way too long* on 
    sudo apt update && sudo apt upgrade
    git clone https://github.com/carolinedunn/game-night-timer-pico.git
    
-2. Plug in your Pico — the timer starts automatically on boot. 
-3. Flash **MicroPython** onto your Pico (via [Thonny](https://thonny.org/) or `rshell`).  
+2. Download MicroPython UF2 file for your Pico [from this page](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/3)
+3. Plug in your Pico while holding down the BOOTSEL button.
+4. Copy the Python files from your Pi to your Pico.
+5. Open [Thonny](https://thonny.org/) and select Pico and MicroPython for the environment.
+6. Wire your Pico.
+7. Test your Pico.
+8. Save the file you want to run on boot as main.py
 
 ---
 
-## ▶️ Demo Video
-🎥 YouTube tutorial: [Pico Game Night Timer with LEDs + LCD](https://youtu.be/WSQV_xoQzLM)  
+## ▶️ Tutorial Video
+🎥 YouTube tutorial: [Pico Game Night Timer](https://youtu.be/WSQV_xoQzLM)  
 
 ---
 
