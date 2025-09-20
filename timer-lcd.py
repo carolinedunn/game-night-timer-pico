@@ -90,7 +90,7 @@ def set_leds(g=False, y=False, r=False):
 i2c = I2C(0, sda=Pin(I2C_SDA), scl=Pin(I2C_SCL), freq=400000)
 lcd = I2cLcd(i2c, LCD_ADDR, 16, 2)
 
-def lcd_idle(top="Press to start", bot="  Game Night Timer"):
+def lcd_idle(top="Press to start", bot="Game Night Timer"):
     lcd.clear()
     lcd.set_cursor(0, 0); lcd.write_string(_pad16(top))
     lcd.set_cursor(0, 1); lcd.write_string(_pad16(bot))
